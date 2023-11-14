@@ -1,10 +1,10 @@
 {
   "name": "solidjs-mdx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SolidJS context for MDX",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./lib && tsc"
+    "build": "tsc"
   },
   "keywords": ["solidjs-mdx"],
   "author": "moneko",
@@ -14,8 +14,7 @@
     "index.d.ts"
   ],
   "devDependencies": {
-    "hyper-dom-expressions": "^0.36.12",
-    "solid-js": "^1.7.5",
-    "typescript": "^5.0.4"
+    "solid-js": "^1.8.5",
+    "typescript": "^5.2.2"
   }
 }
